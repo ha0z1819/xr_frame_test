@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "xr-template-arPreview":"../../components/xr-template-arPreview/index"
+  },
+  "disableScroll": true
+}
