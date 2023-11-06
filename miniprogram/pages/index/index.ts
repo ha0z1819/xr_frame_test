@@ -7,8 +7,5 @@ Page({
   onLoad() {},
   goOne() {
     wx.navigateTo({ url: "/pages/xr-template-arPreview/index" });
-  },
-  goTwo() {
-    wx.navigateTo({ url: "/pages/place/index" });
-  },
+  }
 });

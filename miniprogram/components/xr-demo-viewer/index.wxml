@@ -1,0 +1,16 @@
+<view class="demo-wrap">
+  <scroll-view class="demo-viewer" scroll-y="{{true}}">
+    <block bind:sceneReady="handleSceneReady">
+      <slot></slot>
+    </block>
+    <view class="intro">
+      <view class="intro-detail">
+				<button class="share" open-type="share">分享好友</button>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="back-btn-wrap" wx:if="{{showBackBtn}}" bind:tap="onClickBack">
+    <view class="back-line-t"></view>
+    <view class="back-line-b"></view>
+  </view>
+</view>

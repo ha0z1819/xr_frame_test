@@ -22,7 +22,8 @@ Component({
     handleReady({detail}) {
       const xrScene = this.scene = detail.value;
       this.mat = new (wx.getXrFrameSystem().Matrix4)();
-      console.log('xr-scene', xrScene);
+			console.log('xr-scene', xrScene);
+			this.scene.event.add('touchstart', this.handleShare.bind(this));
       const { width, height } = this.scene
       // 旋转缩放相关配置
       this.radius = (width + height) / 4
@@ -131,6 +132,15 @@ Component({
         this.gltfItemTRS.scale.y *= s
         this.gltfItemTRS.scale.z *= s
       }
+		},
+		handleShare(event) {
+      const {clientX, clientY} = event.touches[0];
+      const {frameWidth: width, frameHeight: height} = this.scene;
+			// 对点击事件设置区域
+      if (clientY / height > 0.7 && clientX / width > 0.7) {
+        this.scene.share.captureToFriends();
+      }
+
     },
     handleAssetsProgress: function({detail}) {
       console.log('assets progress', detail.value);

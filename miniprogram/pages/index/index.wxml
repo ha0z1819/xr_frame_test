@@ -1,4 +1,3 @@
 <view class="container">
-  <button bindtap="goOne">AR-缩放</button>
-  <button bindtap="goTwo">AR-截图</button>
+  <button bindtap="goOne">AR-缩放-截图</button>
 </view>
