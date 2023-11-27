@@ -1,6 +1,5 @@
-button + button {
-  margin-top: 50rpx;
-}
+
 button{
-  background-color: rgb(115, 173, 140);
+  background-color: rgb(100, 109, 197);
+  margin-top: 50rpx;
 }

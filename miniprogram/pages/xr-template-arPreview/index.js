@@ -6,11 +6,10 @@ Page({
   moveTimes: 0,
   data: {
     // 内置
-    height: 600,
-    heightScale: 0.85,
+    height: 800,
+    heightScale: 1,
     showBackBtn: true,
   },
-  onLoad( ) {
+  onLoad() {
   },
-
 });

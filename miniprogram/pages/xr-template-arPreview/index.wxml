@@ -1,11 +1,15 @@
-<xr-demo-viewer
-  showBackBtn="{{showBackBtn}}"
->
-  <xr-template-arPreview
-    disable-scroll
-    id="main-frame"
-    width="{{renderWidth}}"
-    height="{{renderHeight}}"
-    style="width:{{width}}px;height:{{height}}px;top:{{top}}px;left:{{left}}px;display:block;"
-  />
-</xr-demo-viewer>
+
+<!-- <view class="parent_view">
+  <view class="view1">
+    <image src="../../components/assets/文字测试.png" style="width: 50px; height: 805px;"/>
+  </view>
+  <view class="view2"> -->
+    <xr-template-arPreview
+      disable-scroll
+      id="main-frame"
+      width="{{renderWidth}}"
+      height="{{renderHeight}}"
+      style="width:{{width}}px;height:{{height}}px;top:{{top}}px;left:{{left}}px;display:block;"
+    ></xr-template-arPreview>
+  <!-- </view>
+</view> -->

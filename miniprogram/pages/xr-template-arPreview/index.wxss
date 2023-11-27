@@ -1,4 +1,27 @@
 
+.parent_view{
+  position: absolute;
+  z-index: 0;
+}
+
+.view1{
+  position: absolute;
+  z-index:10;
+}
+
+.view2{
+  position: absolute;
+  z-index: 0;
+  margin-top: -280rpx;
+  margin-left: 0rpx;  
+}
+
+
+
+
+
+
+/* 
 .xr-control {
   position: absolute;
   left: 50%;
@@ -122,4 +145,4 @@
   right: 0;
   bottom: 0;
   transform: rotate(180deg);
-}
+} */

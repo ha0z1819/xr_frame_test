@@ -1,16 +1,9 @@
-<view class="demo-wrap">
-  <scroll-view class="demo-viewer" scroll-y="{{true}}">
-    <block bind:sceneReady="handleSceneReady">
-      <slot></slot>
-    </block>
-    <view class="intro">
-      <view class="intro-detail">
-				<button class="share" open-type="share">分享好友</button>
-      </view>
-    </view>
-  </scroll-view>
-  <view class="back-btn-wrap" wx:if="{{showBackBtn}}" bind:tap="onClickBack">
-    <view class="back-line-t"></view>
-    <view class="back-line-b"></view>
-  </view>
-</view>
+<!-- <view class="demo-wrap">
+    <slot></slot>
+    <button class="share" open-type="share">分享好友1111</button>
+</view> -->
+
+
+  <!-- <slot></slot>
+  <image class='text_num' src='../assets/文字测试.png'></image> -->
+

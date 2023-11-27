@@ -1,3 +1,6 @@
 <view class="container">
   <button bindtap="goOne">AR-缩放-截图</button>
+  <button id="1" bindtap="goTwo">AR-model-one</button>
+  <button id="2" bindtap="goTwo">AR-model-two</button>
+  <button id="3" bindtap="goTwo">AR-model-three</button>
 </view>

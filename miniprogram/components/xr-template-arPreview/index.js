@@ -12,6 +12,11 @@ Component({
   data: {
     loaded: false,
     arReady: false,
+    url:[
+      "http://121.37.218.168:8085/YNFY/FYData/Exhibits/test_xr-frame/box.glb",
+      "https://mmbizwxaminiprogram-1258344707.cos.ap-guangzhou.myqcloud.com/xr-frame/demo/ar-plane-marker.glb",
+      "http://121.37.218.168:8085/YNFY/FYData/Exhibits/test_xr-frame/box.glb"
+    ]
   },
   lifetimes: {
     async attached() {
@@ -132,7 +137,9 @@ Component({
         this.gltfItemTRS.scale.y *= s
         this.gltfItemTRS.scale.z *= s
       }
-		},
+    },
+    
+    // 截屏
 		handleShare(event) {
       const {clientX, clientY} = event.touches[0];
       const {frameWidth: width, frameHeight: height} = this.scene;
@@ -140,7 +147,6 @@ Component({
       if (clientY / height > 0.7 && clientX / width > 0.7) {
         this.scene.share.captureToFriends();
       }
-
     },
     handleAssetsProgress: function({detail}) {
       console.log('assets progress', detail.value);
@@ -167,13 +173,9 @@ Component({
       anchorTRS.scale.y = 0
       anchorTRS.scale.z = 0
       wx.setKeepScreenOn({ keepScreenOn: true })
-
-
       // 获取改动元素
       this.gltfItemTRS = this.scene.getElementById('preview-model').getComponent(xrFrameSystem.Transform)
       this.gltfItemSubTRS = this.scene.getElementById('preview-model-sub').getComponent(xrFrameSystem.Transform)
-
-
 
       // 开启旋转缩放逻辑
       this.scene.event.addOnce('touchstart', this.handleTouchStart)
