@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/xr-template-arPreview/index"
+    "pages/xr-template-arPreview/index",
+    "pages/ar-model-one/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
