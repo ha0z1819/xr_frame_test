@@ -4,5 +4,30 @@
     id="main-frame"
     width="{{renderWidth}}"
     height="{{renderHeight}}"
+    reset="{{reset}}"
+    transferData="{{transferData}}"
     style="width:{{width}}px;height:{{height}}px;top:{{top}}px;left:{{left}}px;display:block;"
+    bindinfoListener="handleInfoListener" 
 />
+
+<!-- 旋转区域 -->
+<view class="rt-area"
+		style="height: {{height}}px"
+		catchtouchstart='touchRotateStart'
+		catchtouchmove='touchRotateMove'
+		bindtouchend='touchRotateEnd'>
+</view>
+
+	<!-- 摇杆区域 -->
+  <view class="mv-area" 
+		style="top: {{height - 100}}px;"
+		catchtouchstart='touchStart'
+		catchtouchmove='touchMove'
+		bindtouchend='touchEnd'>
+		<image class="mv-bg" src="../../components/assets/background.png" />
+		<image class="mv-handle" style="left:{{hLeft}}px; top:{{hTop}}px;" src="../../components/assets/handle.png" />
+  </view>
+
+	<view class="reset-btn" style="top: {{height}}px;">
+		<button bindtap="reset">位置重置</button>
+	</view>

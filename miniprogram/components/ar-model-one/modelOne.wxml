@@ -14,11 +14,14 @@
     </xr-node>
     
     <!-- camera -->
-    <xr-camera
-      position="2 1 2" clear-color="0.925 0.925 0.925 1"
-      background="ar" target="camera-target" camera-orbit-control=""
-    />
-  </xr-node>
+    <xr-node id="player" node-id="player" position="0 1.6 1" rotation="0 180 0">
+      <xr-camera
+        id="camera" node-id="camera"
+        position="2 1 2" clear-color="0.925 0.925 0.925 1"
+        background="ar" target="camera-target" camera-orbit-control=""
+      />
+      </xr-node>
+    </xr-node>
 
 <!-- light -->
   <xr-node node-id="lights">
