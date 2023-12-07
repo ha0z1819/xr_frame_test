@@ -4,8 +4,7 @@ Component({
     a: Number,
   },
   data: {
-    loaded: false,
-    touchingModel:false
+    loaded: false
   },
   lifetimes: {
     attached() {
@@ -13,28 +12,6 @@ Component({
     }
   },
   methods: {
-    handleTouchModel:function(){
-      console.log("点击了");
-      this.setData({touchingModel:true})
-    },
-    handleDragModel:function({detail}){
-      console.log("点击了");
-      const { dir, target, camera } = detail.value;
-      const cameraPos = camera.el._components.transform.worldPosition;
-      const k = -cameraPos.y / dir[1];
-      const x = cameraPos.x + k * dir[0];
-      const z = cameraPos.z + k * dir[2];
-      const len = Math.sqrt(x * x + z * z);
-      if (len > this.data.innerRing) {
-          const transform = target._components.transform;
-          const scale = len > this.data.outerRing ? this.data.outerRing / len : 1.0;
-          transform.position.x = x * scale;
-          transform.position.z = z * scale;
-      }
-    },
-
-
-
     handleReady({detail}) {
       const xrScene = this.scene = detail.value;
       console.log('xr-scene', xrScene);

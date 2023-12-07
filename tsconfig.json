@@ -23,7 +23,7 @@
   },
   "include": [
     "./**/*.ts"
-, "miniprogram/pages/xr-template-arPreview/index.js"  ],
+, "miniprogram/pages/xr-template-arPreview/index.js", "miniprogram/components/model-one/model-one.js", "miniprogram/components/model/model-one/index.js", "miniprogram/components/model/model-one/index.js", "miniprogram/components/model/model-one/model-one.js", "miniprogram/pages/model-one/model-one.js"  ],
   "exclude": [
     "node_modules"
   ]

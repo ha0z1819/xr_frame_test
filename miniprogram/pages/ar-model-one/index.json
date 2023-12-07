@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "xr-ar-camera":"../../components/ar-model-one/modelOne"
-  },
-  "disableScroll": true,
-  "navigationStyle": "custom"
-}

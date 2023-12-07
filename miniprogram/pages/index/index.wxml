@@ -1,6 +1,7 @@
 <view class="container">
   <button bindtap="goOne">AR-缩放-截图</button>
-  <button id="1" bindtap="goTwo">AR-model-one</button>
-  <button id="2" bindtap="goTwo">AR-model-two</button>
-  <button id="3" bindtap="goTwo">AR-model-three</button>
+  <image src="../../components/assets/thumb.jpg" bindtap="click1"/>
+  <image src="../../components/assets/thumb1.jpg" bindtap="click2"/>
+  <image src="../../components/assets/thumb (2).jpg" bindtap="click3"/>
+
 </view>

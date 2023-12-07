@@ -8,24 +8,17 @@ Page({
   goOne() {
     wx.navigateTo({ url: "/pages/xr-template-arPreview/index" });
   },
-  goTwo(event:any) {
+  click1(event:any) {
    console.log(event)
-   var id=event.target.id;
-   console.log(id)
-   wx.navigateTo({ url: "/pages/ar-model-one/index" });
-   switch (id) {
-    case 1:
-      wx.navigateTo({ url: "/pages/ar-model-one/index" });
-      console.log("11")
-       break;
-    case 2:
-      wx.navigateTo({ url: "/pages/xr-template-arPreview/index" });
-        break;
-    case 3:
-      wx.navigateTo({ url: "/pages/xr-template-arPreview/index" });
-        break;
-     default:
-       break;
-   }
-  }
+   console.log("点击了")
+   wx.navigateTo({url:"/pages/model-one/model-one"})
+  },
+  click2(event:any) {
+    console.log(event)
+    wx.navigateTo({url:"/pages/model-two/model-two"})
+  },
+  click3(event:any) {
+    console.log(event)
+    wx.navigateTo({url:"/pages/model-three/model-three"})
+  },
 });

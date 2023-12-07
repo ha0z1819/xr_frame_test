@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/xr-template-arPreview/index",
-    "pages/ar-model-one/index"
+    "pages/model-one/model-one",
+    "pages/model-three/model-three",
+    "pages/model-two/model-two"
   ],
   "window": {
     "backgroundTextStyle": "light",

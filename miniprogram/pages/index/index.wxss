@@ -3,3 +3,10 @@ button{
   background-color: rgb(100, 109, 197);
   margin-top: 50rpx;
 }
+image{
+  height: 80px;
+  width: 160px;
+  margin-top: 50rpx;
+  border-radius: 40px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.9);
+}

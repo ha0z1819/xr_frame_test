@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "model-one": "../../components/model-one/model-one"
+  },
+  "disableScroll": true
+}

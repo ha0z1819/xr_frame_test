@@ -1,6 +1,5 @@
 {
   "usingComponents": {
-		"xr-demo-viewer":"../../components/xr-demo-viewer/index",
     "xr-template-arPreview":"../../components/xr-template-arPreview/index"
   },
   "disableScroll": true
