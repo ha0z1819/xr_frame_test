@@ -1,5 +1,6 @@
 {
   "component": true,
   "usingComponents": {},
-  "renderer": "xr-frame"
+  "renderer": "xr-frame",
+  "navigationStyle":"custom"
 }

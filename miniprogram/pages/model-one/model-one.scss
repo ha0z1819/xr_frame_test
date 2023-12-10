@@ -1,20 +1,17 @@
-button {
+button{
   background-color: blueviolet;
 }
-
-image {
+image{
   height: 1000rpx;
   width: 500rpx;
 }
-
-.div1 {
+.div1{
   height: 1000rpx;
   width: 600rpx;
   position: absolute;
   z-index: 1;
 }
-
-.div2 {
+.div2{
   position: absolute;
   z-index: 0;
 }

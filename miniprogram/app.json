@@ -4,15 +4,40 @@
     "pages/xr-template-arPreview/index",
     "pages/model-one/model-one",
     "pages/model-three/model-three",
-    "pages/model-two/model-two"
+    "pages/model-two/model-two",
+
+    "pages/classify/classify",
+    "pages/news/news"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "非遗物件AR展览",
+    "navigationBarTextStyle": "white",
+    "disableScroll":"true"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar":{
+    "list":[
+      {
+        "text":"首页",
+        "pagePath":"pages/index/index",
+        "iconPath": "components/assets/诉求.png",
+        "selectedIconPath": "components/assets/诉求1.png"
+      },{
+        "text":"分类",
+        "pagePath":"pages/classify/classify",
+        "iconPath": "components/assets/记录.png",
+        "selectedIconPath": "components/assets/记录1.png"
+      },{
+        "text":"我们",
+        "pagePath":"pages/news/news",
+        "iconPath": "components/assets/个人.png",
+        "selectedIconPath": "components/assets/个人1.png"
+      }
+    ]
+  }
+
 }

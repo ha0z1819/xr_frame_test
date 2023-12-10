@@ -8,10 +8,20 @@ Component({
   },
   lifetimes: {
     attached() {
+      this.scene.share.captureToFriends();
       console.log('data.a', this.data.a) // expected 123
     }
   },
   methods: {
+    // 截屏
+		handleShare(event) {
+      const {clientX, clientY} = event.touches[0];
+      const {frameWidth: width, frameHeight: height} = this.scene;
+			// 对点击事件设置区域
+      if (clientY / height > 0.7 && clientX / width > 0.7) {
+        this.scene.share.captureToFriends();
+      }
+    },
     handleReady({detail}) {
       const xrScene = this.scene = detail.value;
       console.log('xr-scene', xrScene);
@@ -33,5 +43,6 @@ Component({
       const {el, value} = detail;
       console.log('log', detail.value);
     },
+    
   }
 })

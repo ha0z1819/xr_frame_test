@@ -7,6 +7,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    height: 750,
+    heightScale: 1,
+    showBackBtn: true,
   },
 })

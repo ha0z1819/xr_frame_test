@@ -3,5 +3,4 @@
   <image src="../../components/assets/thumb.jpg" bindtap="click1"/>
   <image src="../../components/assets/thumb1.jpg" bindtap="click2"/>
   <image src="../../components/assets/thumb (2).jpg" bindtap="click3"/>
-
 </view>
