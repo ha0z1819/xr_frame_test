@@ -19,7 +19,7 @@ Component({
       const {clientX, clientY} = event.touches[0];
       const {frameWidth: width, frameHeight: height} = this.scene;
 			// 对点击事件设置区域
-      if (clientY / height > 0.9 && clientX / width > 0.3 && clientX / width <0.6) {
+      if (clientY / height > 0.8 && clientX / width > 0.3 && clientX / width <0.6) {
         this.scene.share.captureToFriends();
       }
     },

@@ -23,7 +23,7 @@
   },
   "include": [
     "./**/*.ts"
-, "miniprogram/pages/xr-template-arPreview/index.js", "miniprogram/components/model-one/model-one.js", "miniprogram/components/model/model-one/index.js", "miniprogram/components/model/model-one/index.js", "miniprogram/components/model/model-one/model-one.js", "miniprogram/pages/model-one/model-one.js"  ],
+, "miniprogram/pages/xr-template-arPreview/index.js", "miniprogram/components/model-one/model-one.js", "miniprogram/components/model/model-one/index.js", "miniprogram/components/model/model-one/index.js", "miniprogram/components/model/model-one/model-one.js", "miniprogram/pages/model-one/model-one.js", "miniprogram/components/xr-demo-viewer/index.js", "miniprogram/components/model-two/model-two.js", "miniprogram/pages/model-two/model-two.js", "miniprogram/components/model-three/model-three.js", "miniprogram/pages/model-three/model-three.js"  ],
   "exclude": [
     "node_modules"
   ]

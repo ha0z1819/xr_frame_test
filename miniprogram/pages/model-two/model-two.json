@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "model-two":"../../components/model-two/model-two"
+  },
+  "disableScroll": true
 }

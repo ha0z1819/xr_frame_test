@@ -1,1 +1,30 @@
-/* pages/model-three/model-three.wxss */
+.container {
+  position: relative;
+}
+.container .div1 {
+  height: 120rpx;
+  width: 120rpx;
+  position: absolute;
+  z-index: 9;
+}
+.container .div1 image {
+  height: 120rpx;
+  width: 120rpx;
+  margin-top: 1100rpx;
+}
+.container .div2 {
+  margin-top: -150rpx;
+  height: 50rpx;
+  width: 300rpx;
+  position: absolute;
+  z-index: 2;
+}
+.container .div2 image {
+  height: 50rpx;
+  width: 300rpx;
+  margin-top: auto;
+}
+.container .div3 {
+  position: absolute;
+  z-index: -1;
+}

@@ -1,10 +1,16 @@
-<!--pages/model-three/model-three.wxml-->
-<text>pages/model-three/model-three.wxml</text>
 
-<xr-ar-camera
+<view class="container">
+  <view class="div1">
+    <image src="../../components/assets/拍照.png" mode=""/>
+  </view>
+  <view class="div2">
+    <image src="../../components/assets/文字测试.png" mode=""/>
+  </view>
+    <model-three
+    class="div3"
     disable-scroll
     id="main-frame"
     width="{{renderWidth}}"
     height="{{renderHeight}}"
-    style="width:{{width}}px;height:{{height}}px;top:{{top}}px;left:{{left}}px;display:block;"
-  />
+    style="width:{{width}}px;height:{{height}}px;top:{{top}}px;left:{{left}}px;display:block;"/>
+</view>

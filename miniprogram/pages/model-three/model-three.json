@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "model-three":"../../components/model-three/model-three"
+  },
+  "disableScroll": true
 }
