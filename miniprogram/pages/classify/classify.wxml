@@ -1,2 +1,25 @@
-<!--pages/classify/classify.wxml-->
-<image src="../../components/assets/thumb.jpg" mode=""/>
+<view class="card">
+  <image src="../../components/assets/thumb (2).jpg"></image>
+  <view class="card-content">
+    <h2>珐琅</h2>
+    <p>是以珐琅为材料装饰而制成的器物。</p>
+  </view>
+</view>
+
+<view class="card">
+  <image src="../../components/assets/thumb (3).jpg"></image>
+  <view class="card-content">
+    <h2>剑川木雕</h2>
+    <p>国家级非物质文化遗产之一</p>
+  </view>
+</view>
+
+
+<view class="card">
+  <image src="../../components/assets/thumb.jpg"></image>
+  <view class="card-content">
+    <h2>鹤庆银器</h2>
+    <p>国家级非物质文化遗产之一</p>
+  </view>
+</view>
+

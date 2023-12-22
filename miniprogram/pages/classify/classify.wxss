@@ -1,1 +1,32 @@
-/* pages/classify/classify.wxss */
+ .card {
+      display: flex;
+      max-width: 300px;
+      max-height: 200px;
+      margin: 15px auto;
+      background-color: rgb(52, 5, 163);
+      box-shadow: 0 4px 8px rgba(243, 243, 243, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .card image {
+      
+      width: 240px; /* 调整图片占比 */
+      height: 80px;
+      /* height: 30px; */
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 20px;
+    }
+    .card-content {
+      padding: 20px;
+      width: 60%; /* 调整文字介绍占比 */
+    }
+    .card-content h2 {
+      color:rgb(221, 216, 216);
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+    .card-content p {
+      font-size: 1.05em;
+      color: rgb(145, 139, 139);
+    }

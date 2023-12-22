@@ -1,8 +1,9 @@
 button {
   border: aquamarine;
-  background-color: #59599e;
+  background-color: rgba(52, 5, 163);
   border-radius: 30px;
   margin: 15px;
+  color: rgb(255, 255, 255);
 }
 
 image {

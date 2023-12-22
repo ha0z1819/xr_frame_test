@@ -1,4 +1,67 @@
-image {
-  position: fixed;
-  border-radius: 30px;
+/* 定义卡片样式 */
+.card {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 260px; /* 宽度 */
+  height: 400px; /* 高度 */
+  background: #3405a3; /* 背景颜色 */
+  border-radius: 15px; /* 边框圆角 */
+  box-shadow: 1px 5px 60px 0px #100a886b; /* 盒子阴影 */
+}
+ 
+/* 定义卡片顶部的装饰线条样式 */
+.card .card-border-top {
+  width: 60%; /* 宽度 */
+  height: 3%; /* 高度 */
+  background: #6b64f3; /* 背景颜色 */
+  margin: auto; /* 居中 */
+  border-radius: 0px 0px 15px 15px; /* 边框圆角 */
+}
+ 
+/* 定义人物名称样式 */
+.card span {
+  font-weight: 600; /* 字体粗细 */
+  color: white; /* 字体颜色 */
+  text-align: center; /* 居中 */
+  display: block; /* 块级元素 */
+  padding-top: 10px; /* 顶部内边距 */
+  font-size: 16px; /* 字体大小 */
+}
+ 
+/* 定义人物职位信息样式 */
+.card .job {
+  font-weight: 400; /* 字体粗细 */
+  color: white; /* 字体颜色 */
+  display: block; /* 块级元素 */
+  text-align: center; /* 居中 */
+  padding-top: 3px; /* 顶部内边距 */
+  font-size: 12px; /* 字体大小 */
+}
+ 
+/* 定义卡片内部的图像或其他媒体样式 */
+.card .img {
+  width: 70px; /* 宽度 */
+  height: 80px; /* 高度 */
+  background: #6b64f3; /* 背景颜色 */
+  border-radius: 15px; /* 边框圆角 */
+  margin: auto; /* 居中 */
+  margin-top: 25px; /* 顶部外边距 */
+}
+ 
+/* 定义按钮样式 */
+.card button {
+  padding: 8px 25px; /* 内边距 */
+  display: block; /* 块级元素 */
+  margin: auto; /* 居中 */
+  border-radius: 8px; /* 边框圆角 */
+  border: none; /* 无边框 */
+  margin-top: 30px; /* 顶部外边距 */
+  background: #6b64f3; /* 背景颜色 */
+  color: white; /* 字体颜色 */
+  font-weight: 600; /* 字体粗细 */
+}
+ 
+/* 定义按钮悬停时的样式 */
+.card button:hover {
+  background: #534bf3; /* 背景颜色 */
 }

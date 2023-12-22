@@ -1,1 +1,16 @@
-<image src="../../components/assets/thumb1.jpg" mode=""/>
+<!-- <view class="card">
+  <view class="card-border-top"></view>
+  <view class="img">
+  </view>
+  <span> haozi</span>
+  <p class="job">xr-frame</p>
+  <button>支持一下</button>
+</view> -->
+
+<view class="card">
+  <view class="card-border-top"></view>
+  <view class="img"></view>
+  <span>haozi</span>
+  <p class="job">xr-frame</p>
+  <button>吴彦组</button>
+</view>
